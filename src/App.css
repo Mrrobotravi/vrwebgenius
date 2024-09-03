@@ -1,0 +1,34 @@
+.active {
+  color: red;
+}
+
+.navbar ul {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar li {
+  flex: 1 1 0;
+  margin-right: 20px;
+}
+
+/* Medium screen and up */
+@media (min-width: 768px) {
+  .navbar ul {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .navbar li {
+    margin-right: 40px;
+  }
+}
+
+/* Large screen and up */
+@media (min-width: 1024px) {
+  .navbar ul {
+    justify-content: space-between;
+  }
+  .navbar li {
+    margin-right: 60px;
+  }
+}
